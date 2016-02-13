@@ -9,6 +9,8 @@
 import SpriteKit
 
 
+let canvas = SKSpriteNode();
+var initialPosition:CGPoint?;
 
 var initsp1 = SKShapeNode(circleOfRadius: 65)
 var initsp2 = SKShapeNode(circleOfRadius: 65)
@@ -94,6 +96,28 @@ self.scene?.name = "NAME"
     
     
     
+    //camera shake
+    func shakeCamera(duration:Float) {
+        let amplitudeX:Float = 10;
+        let amplitudeY:Float = 6;
+        let numberOfShakes = duration / 0.04;
+        var actionsArray:[SKAction] = [];
+        for index in 1...Int(numberOfShakes) {
+            // build a new random shake and add it to the list
+            let moveX = CGFloat(arc4random_uniform(10) + 1)
+            let moveY = CGFloat(arc4random_uniform(6) + 1)
+
+
+            let shakeAction = SKAction.moveByX(moveX, y: moveY, duration: 0.02);
+            shakeAction.timingMode = SKActionTimingMode.EaseOut;
+            actionsArray.append(shakeAction);
+            actionsArray.append(shakeAction.reversedAction());
+        }
+        
+        let actionSeq = SKAction.sequence(actionsArray);
+        canvas.runAction(actionSeq);
+    }
+
     
     
     
@@ -198,13 +222,8 @@ self.addChild(leftarrow)
         */
     }
     
+    func randvals(){
     
-    func gamestart(){
-        //setup main game
-        phase = 3
-        points = 0
-        vectorx = -4
-         time = 1
         //which 2 colors ???
         val1 = arc4random_uniform(4) + 1
         val2 = arc4random_uniform(4) + 1
@@ -212,29 +231,47 @@ self.addChild(leftarrow)
         if val1 == 1{
             mainC1 = color1
         } else if val1 == 2{
-             mainC1 = color2
+            mainC1 = color2
             
         } else if val1 == 3{
-             mainC1 = color3
+            mainC1 = color3
             
         } else if val1 == 4{
-             mainC1 = color4
+            mainC1 = color4
             
         }
         
         if val2 == 1{
-             mainC2 = color1
+            mainC2 = color1
         } else if val2 == 2{
-             mainC2 = color2
+            mainC2 = color2
             
         } else if val2 == 3{
-             mainC2 = color3
+            mainC2 = color3
             
         } else if val2 == 4{
-             mainC2 = color4
+            mainC2 = color4
             
         }
 
+        if mainC1 == mainC2{
+        randvals()
+        
+        }
+    
+    
+    }
+    
+    func gamestart(){
+        //setup main game
+        phase = 3
+        points = 0
+        vectorx = -4
+         time = 1
+        
+       randvals()
+        
+        
         if phase == 3{
             
             rl.position = CGPointMake(CGRectGetMidX(self.frame)   , CGRectGetMidY(self.frame) + 30 )
@@ -408,6 +445,7 @@ xps = sprite
             introlabel2.removeFromParent()
     valdo = 0
         phase = 1
+            shakeCamera(3.0)
             maketapsprites()
         }
      //   let nodes = nodesAtPoint(location)
@@ -466,7 +504,7 @@ xps = sprite
         
                Gameover = false
 scorenode.fontSize = 50
-        scorenode.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame) - 15 )
+        scorenode.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame) - 20 )
         
         
         scorelabel.fontColor = UIColor(red: 255/255.0, green: 102/255.0, blue: 0/255.0, alpha: alpha)
