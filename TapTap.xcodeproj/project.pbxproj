@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE07B0C21C6EECFA0011735D /* Leaderboard.png in Resources */ = {isa = PBXBuildFile; fileRef = FE07B0C11C6EECFA0011735D /* Leaderboard.png */; };
+		FE07B0C41C6EEDC60011735D /* Rate.png in Resources */ = {isa = PBXBuildFile; fileRef = FE07B0C31C6EEDC60011735D /* Rate.png */; };
+		FE07B0C61C6EF0E70011735D /* questionmark.png in Resources */ = {isa = PBXBuildFile; fileRef = FE07B0C51C6EF0E70011735D /* questionmark.png */; };
+		FE07B0C91C6EF9CF0011735D /* Dream TOM GARNETT.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FE07B0C81C6EF9CF0011735D /* Dream TOM GARNETT.m4a */; };
+		FE07B0CB1C6F68BB0011735D /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = FE07B0CA1C6F68BB0011735D /* house.png */; };
 		FE09E6ED1C6EE142003D27E6 /* leftarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FE09E6EC1C6EE142003D27E6 /* leftarrow.png */; };
 		FE09E6EF1C6EE1EC003D27E6 /* leftright.png in Resources */ = {isa = PBXBuildFile; fileRef = FE09E6EE1C6EE1EC003D27E6 /* leftright.png */; };
 		FE22BB091C5661F200BEA6AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE22BB081C5661F200BEA6AA /* AppDelegate.swift */; };
@@ -45,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE07B0C11C6EECFA0011735D /* Leaderboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leaderboard.png; sourceTree = "<group>"; };
+		FE07B0C31C6EEDC60011735D /* Rate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rate.png; sourceTree = "<group>"; };
+		FE07B0C51C6EF0E70011735D /* questionmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = questionmark.png; sourceTree = "<group>"; };
+		FE07B0C71C6EF5520011735D /* Dream TOM GARNETT.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dream TOM GARNETT.m4a"; sourceTree = "<group>"; };
+		FE07B0C81C6EF9CF0011735D /* Dream TOM GARNETT.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Dream TOM GARNETT.m4a"; path = "TapTap/Images/Dream TOM GARNETT.m4a"; sourceTree = "<group>"; };
+		FE07B0CA1C6F68BB0011735D /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
 		FE09E6EC1C6EE142003D27E6 /* leftarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftarrow.png; sourceTree = "<group>"; };
 		FE09E6EE1C6EE1EC003D27E6 /* leftright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftright.png; sourceTree = "<group>"; };
 		FE22BB051C5661F200BEA6AA /* TapTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +110,7 @@
 		FE22BAFC1C5661F200BEA6AA = {
 			isa = PBXGroup;
 			children = (
+				FE07B0C81C6EF9CF0011735D /* Dream TOM GARNETT.m4a */,
 				FE22BB071C5661F200BEA6AA /* TapTap */,
 				FE22BB201C5661F200BEA6AA /* TapTapTests */,
 				FE22BB2B1C5661F200BEA6AA /* TapTapUITests */,
@@ -156,8 +168,13 @@
 			isa = PBXGroup;
 			children = (
 				FE3E710E1C6AE58D00109057 /* unnamed.png */,
+				FE07B0C51C6EF0E70011735D /* questionmark.png */,
+				FE07B0CA1C6F68BB0011735D /* house.png */,
+				FE07B0C31C6EEDC60011735D /* Rate.png */,
 				FE09E6EE1C6EE1EC003D27E6 /* leftright.png */,
 				FE3E71041C6A9B2700109057 /* TapTap Playbutton.png */,
+				FE07B0C11C6EECFA0011735D /* Leaderboard.png */,
+				FE07B0C71C6EF5520011735D /* Dream TOM GARNETT.m4a */,
 				FE09E6EC1C6EE142003D27E6 /* leftarrow.png */,
 				FE8E62831C601B980083B70F /* images.png */,
 				FE3E71061C6A9F1100109057 /* Untitled drawing (2).png */,
@@ -273,9 +290,14 @@
 				FE22BB0B1C5661F200BEA6AA /* GameScene.sks in Resources */,
 				FE3E710F1C6AE58D00109057 /* unnamed.png in Resources */,
 				FE3E71051C6A9B2700109057 /* TapTap Playbutton.png in Resources */,
+				FE07B0C91C6EF9CF0011735D /* Dream TOM GARNETT.m4a in Resources */,
 				FE3E71031C6A99EB00109057 /* MainMenuScene.sks in Resources */,
+				FE07B0CB1C6F68BB0011735D /* house.png in Resources */,
+				FE07B0C41C6EEDC60011735D /* Rate.png in Resources */,
+				FE07B0C21C6EECFA0011735D /* Leaderboard.png in Resources */,
 				FE22BB171C5661F200BEA6AA /* LaunchScreen.storyboard in Resources */,
 				FE22BB141C5661F200BEA6AA /* Assets.xcassets in Resources */,
+				FE07B0C61C6EF0E70011735D /* questionmark.png in Resources */,
 				FE09E6ED1C6EE142003D27E6 /* leftarrow.png in Resources */,
 				FE09E6EF1C6EE1EC003D27E6 /* leftright.png in Resources */,
 				FE8E62841C601B980083B70F /* images.png in Resources */,

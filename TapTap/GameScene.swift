@@ -9,9 +9,10 @@
 import SpriteKit
 
 
+
 let canvas = SKSpriteNode();
 var initialPosition:CGPoint?;
-
+var tap2 = SKShapeNode()
 var initsp1 = SKShapeNode(circleOfRadius: 65)
 var initsp2 = SKShapeNode(circleOfRadius: 65)
 var intro = SKLabelNode()
@@ -48,6 +49,11 @@ var x = 0
 var nodetouch = SKNode()
 var scorenode = SKLabelNode()
 class GameScene: SKScene {
+    
+    var rate:SKNode?
+    
+    var leaderBoard: SKNode?
+    
     var swiper = UISwipeGestureRecognizer()
     var swipe = UISwipeGestureRecognizer()
 var xxs = 0
@@ -55,7 +61,7 @@ var xxs = 0
     var nodeatpoint: SKNode?
      var tapsprite12 = SKShapeNode(circleOfRadius: 50)
    let scorelabel = SKLabelNode()
-    
+    var home:SKNode?
     var points = 0
     var vectorx:CGFloat = -2
 var time = 1.0
@@ -66,8 +72,11 @@ var point: CGPoint?
 
 self.scene?.name = "NAME"
         
+        leaderBoard = SKSpriteNode(imageNamed: "Leaderboard")
         
-        
+        rate = SKSpriteNode(imageNamed: "Rate")
+
+        home = SKSpriteNode(imageNamed: "house")
         //------------right  swipe gestures in view--------------//
         let swipeRight = UISwipeGestureRecognizer(target: self, action: Selector("rightSwiped"))
         swipeRight.direction = UISwipeGestureRecognizerDirection.Right
@@ -212,8 +221,9 @@ self.scene?.name = "NAME"
         title.removeFromParent()
         title2.removeFromParent()
         retry.removeFromParent()
-        
-        
+        leaderBoard?.removeFromParent()
+        rate?.removeFromParent()
+        home?.removeFromParent()
            //setup game arrows
   /*  leftarrow.position = CGPointMake(CGRectGetMidX(self.frame) - 140 , CGRectGetMidY(self.frame) )
 self.addChild(leftarrow)
@@ -309,6 +319,8 @@ self.addChild(leftarrow)
             self.addChild(intro)
             self.addChild(rl)
             self.addChild(introlabel2)
+            
+            
         
         }
         
@@ -374,6 +386,7 @@ tapsprite12 = tapsprite1
 
             print(tapsprite1.name)
             
+                
             var timer = NSTimer.scheduledTimerWithTimeInterval(time, target: self, selector: "maketapsprites", userInfo: nil, repeats: false)
             }
         }}
@@ -452,6 +465,25 @@ xps = sprite
         
         for touch in touches {
             let location = touch.locationInNode(self)
+            
+            if nodeAtPoint(location) == home && phase == 0{
+            
+                let transition = SKTransition.crossFadeWithDuration(0.5)
+                
+                let scene = MainMenuScene(size: self.scene!.size)
+                scene.scaleMode = SKSceneScaleMode.AspectFill
+                
+                self.scene!.view!.presentScene(scene, transition: transition)
+
+                Gameover = false
+                valdo = 1
+                s = 1
+                phase = 1
+                scorenode.removeFromParent()
+
+            
+                
+            }
             
             if nodeAtPoint(location) == retry && phase == 0{
              
@@ -547,6 +579,17 @@ scorelabel.hidden = false
         title2.hidden = false
         retry.hidden = false
         
+        leaderBoard?.position =  CGPointMake(CGRectGetMidX(self.frame)  , CGRectGetMidY(self.frame) - 280)
+        
+        self.addChild(leaderBoard!)
+        
+        //rate
+               rate?.position = CGPointMake(CGRectGetMidX(self.frame) - 145  , CGRectGetMidY(self.frame) - 280)
+        self.addChild(rate!)
+        
+        home?.position = CGPointMake(CGRectGetMidX(self.frame) + 145  , CGRectGetMidY(self.frame) - 280)
+        self.addChild(home!)
+
 
     }
     
@@ -597,10 +640,6 @@ scorelabel.hidden = false
         
      
         
-         /*   if !tapsprite1.intersectsNode(tapsprite1.parent!) && counting < 3{
-           // print("game over")
-       
-        }*/
         
         
     }

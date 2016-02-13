@@ -9,9 +9,13 @@
 import UIKit
 import SceneKit
 import SpriteKit
+import AVFoundation
 
+var how:SKNode?
+var rate:SKNode?
+var audioPlayer = AVAudioPlayer()
 var playButton:SKNode?
-
+var leaderBoard: SKNode?
 class MainMenuScene: SKScene {
     override func didMoveToView(view: SKView) {
         
@@ -21,8 +25,26 @@ class MainMenuScene: SKScene {
         
         
         setupScene()
-    }
+        
+        
+           }
     
+    
+    func music() {
+        
+        var player = AVAudioPlayer()
+        
+        let url:NSURL = NSBundle.mainBundle().URLForResource("Dream TOM GARNETT", withExtension: "m4a")!
+        
+        do { player = try AVAudioPlayer(contentsOfURL: url, fileTypeHint: nil) }
+        catch let error as NSError { print(error.description) }
+        
+        player.numberOfLoops = -1
+        player.volume = 3.0
+        player.prepareToPlay()
+        player.play()
+        
+    }
     
     func setupScene(){
         playButton =  SKSpriteNode(imageNamed: "TapTap Playbutton")
@@ -31,6 +53,24 @@ playButton?.physicsBody?.affectedByGravity = false
     playButton?.position = CGPointMake(CGRectGetMidX(self.frame)  , CGRectGetMidY(self.frame))
         
     self.addChild(playButton!)
+        
+        //buttons ; leader board, rate, how-to
+        
+        //leaderboard
+        leaderBoard = SKSpriteNode(imageNamed: "Leaderboard")
+        leaderBoard?.position =  CGPointMake(CGRectGetMidX(self.frame)  , CGRectGetMidY(self.frame) - 275)
+
+        self.addChild(leaderBoard!)
+        
+        //rate
+        rate = SKSpriteNode(imageNamed: "Rate")
+        rate?.position = CGPointMake(CGRectGetMidX(self.frame) - 145  , CGRectGetMidY(self.frame) - 275)
+        self.addChild(rate!)
+    // how-to button
+        how = SKSpriteNode(imageNamed: "questionmark")
+        how?.position = CGPointMake(CGRectGetMidX(self.frame) + 145  , CGRectGetMidY(self.frame) - 275)
+        self.addChild(how!)
+
         //add title
         
         let title = SKLabelNode()
