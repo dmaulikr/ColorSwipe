@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE09E6ED1C6EE142003D27E6 /* leftarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FE09E6EC1C6EE142003D27E6 /* leftarrow.png */; };
+		FE09E6EF1C6EE1EC003D27E6 /* leftright.png in Resources */ = {isa = PBXBuildFile; fileRef = FE09E6EE1C6EE1EC003D27E6 /* leftright.png */; };
 		FE22BB091C5661F200BEA6AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE22BB081C5661F200BEA6AA /* AppDelegate.swift */; };
 		FE22BB0B1C5661F200BEA6AA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE22BB0A1C5661F200BEA6AA /* GameScene.sks */; };
 		FE22BB0D1C5661F200BEA6AA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE22BB0C1C5661F200BEA6AA /* GameScene.swift */; };
@@ -16,6 +18,13 @@
 		FE22BB171C5661F200BEA6AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE22BB151C5661F200BEA6AA /* LaunchScreen.storyboard */; };
 		FE22BB221C5661F200BEA6AA /* TapTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE22BB211C5661F200BEA6AA /* TapTapTests.swift */; };
 		FE22BB2D1C5661F200BEA6AA /* TapTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE22BB2C1C5661F200BEA6AA /* TapTapUITests.swift */; };
+		FE3E71011C6A96FC00109057 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E71001C6A96FC00109057 /* MainMenuScene.swift */; };
+		FE3E71031C6A99EB00109057 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE3E71021C6A99EB00109057 /* MainMenuScene.sks */; };
+		FE3E71051C6A9B2700109057 /* TapTap Playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3E71041C6A9B2700109057 /* TapTap Playbutton.png */; };
+		FE3E71071C6A9F1100109057 /* Untitled drawing (2).png in Resources */ = {isa = PBXBuildFile; fileRef = FE3E71061C6A9F1100109057 /* Untitled drawing (2).png */; };
+		FE3E710F1C6AE58D00109057 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3E710E1C6AE58D00109057 /* unnamed.png */; };
+		FE8E62841C601B980083B70F /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = FE8E62831C601B980083B70F /* images.png */; };
+		FED419E61C5D299100B43FCA /* rightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FED419E41C5D299100B43FCA /* rightarrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE09E6EC1C6EE142003D27E6 /* leftarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftarrow.png; sourceTree = "<group>"; };
+		FE09E6EE1C6EE1EC003D27E6 /* leftright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftright.png; sourceTree = "<group>"; };
 		FE22BB051C5661F200BEA6AA /* TapTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE22BB081C5661F200BEA6AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE22BB0A1C5661F200BEA6AA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +62,13 @@
 		FE22BB281C5661F200BEA6AA /* TapTapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapTapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE22BB2C1C5661F200BEA6AA /* TapTapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTapUITests.swift; sourceTree = "<group>"; };
 		FE22BB2E1C5661F200BEA6AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3E71001C6A96FC00109057 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		FE3E71021C6A99EB00109057 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
+		FE3E71041C6A9B2700109057 /* TapTap Playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TapTap Playbutton.png"; sourceTree = "<group>"; };
+		FE3E71061C6A9F1100109057 /* Untitled drawing (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled drawing (2).png"; sourceTree = "<group>"; };
+		FE3E710E1C6AE58D00109057 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
+		FE8E62831C601B980083B70F /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		FED419E41C5D299100B43FCA /* rightarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightarrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +122,11 @@
 				FE22BB081C5661F200BEA6AA /* AppDelegate.swift */,
 				FE22BB0A1C5661F200BEA6AA /* GameScene.sks */,
 				FE22BB0C1C5661F200BEA6AA /* GameScene.swift */,
+				FE3E71001C6A96FC00109057 /* MainMenuScene.swift */,
 				FE22BB0E1C5661F200BEA6AA /* GameViewController.swift */,
+				FE3E71021C6A99EB00109057 /* MainMenuScene.sks */,
 				FE22BB101C5661F200BEA6AA /* Main.storyboard */,
+				FED419E21C5D299100B43FCA /* Images */,
 				FE22BB131C5661F200BEA6AA /* Assets.xcassets */,
 				FE22BB151C5661F200BEA6AA /* LaunchScreen.storyboard */,
 				FE22BB181C5661F200BEA6AA /* Info.plist */,
@@ -129,6 +150,20 @@
 				FE22BB2E1C5661F200BEA6AA /* Info.plist */,
 			);
 			path = TapTapUITests;
+			sourceTree = "<group>";
+		};
+		FED419E21C5D299100B43FCA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FE3E710E1C6AE58D00109057 /* unnamed.png */,
+				FE09E6EE1C6EE1EC003D27E6 /* leftright.png */,
+				FE3E71041C6A9B2700109057 /* TapTap Playbutton.png */,
+				FE09E6EC1C6EE142003D27E6 /* leftarrow.png */,
+				FE8E62831C601B980083B70F /* images.png */,
+				FE3E71061C6A9F1100109057 /* Untitled drawing (2).png */,
+				FED419E41C5D299100B43FCA /* rightarrow.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +271,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE22BB0B1C5661F200BEA6AA /* GameScene.sks in Resources */,
+				FE3E710F1C6AE58D00109057 /* unnamed.png in Resources */,
+				FE3E71051C6A9B2700109057 /* TapTap Playbutton.png in Resources */,
+				FE3E71031C6A99EB00109057 /* MainMenuScene.sks in Resources */,
 				FE22BB171C5661F200BEA6AA /* LaunchScreen.storyboard in Resources */,
 				FE22BB141C5661F200BEA6AA /* Assets.xcassets in Resources */,
+				FE09E6ED1C6EE142003D27E6 /* leftarrow.png in Resources */,
+				FE09E6EF1C6EE1EC003D27E6 /* leftright.png in Resources */,
+				FE8E62841C601B980083B70F /* images.png in Resources */,
+				FE3E71071C6A9F1100109057 /* Untitled drawing (2).png in Resources */,
+				FED419E61C5D299100B43FCA /* rightarrow.png in Resources */,
 				FE22BB121C5661F200BEA6AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +308,7 @@
 			files = (
 				FE22BB0D1C5661F200BEA6AA /* GameScene.swift in Sources */,
 				FE22BB0F1C5661F200BEA6AA /* GameViewController.swift in Sources */,
+				FE3E71011C6A96FC00109057 /* MainMenuScene.swift in Sources */,
 				FE22BB091C5661F200BEA6AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TapTap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Vibell.TapTap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -417,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TapTap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Vibell.TapTap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -492,6 +538,7 @@
 				FE22BB331C5661F200BEA6AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE22BB341C5661F200BEA6AA /* Build configuration list for PBXNativeTarget "TapTapTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +547,7 @@
 				FE22BB361C5661F200BEA6AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE22BB371C5661F200BEA6AA /* Build configuration list for PBXNativeTarget "TapTapUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +556,7 @@
 				FE22BB391C5661F200BEA6AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
