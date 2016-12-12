@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE07B0C21C6EECFA0011735D /* Leaderboard.png in Resources */ = {isa = PBXBuildFile; fileRef = FE07B0C11C6EECFA0011735D /* Leaderboard.png */; };
 		FE07B0C41C6EEDC60011735D /* Rate.png in Resources */ = {isa = PBXBuildFile; fileRef = FE07B0C31C6EEDC60011735D /* Rate.png */; };
-		FE07B0C61C6EF0E70011735D /* questionmark.png in Resources */ = {isa = PBXBuildFile; fileRef = FE07B0C51C6EF0E70011735D /* questionmark.png */; };
-		FE07B0C91C6EF9CF0011735D /* Dream TOM GARNETT.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FE07B0C81C6EF9CF0011735D /* Dream TOM GARNETT.m4a */; };
-		FE07B0CB1C6F68BB0011735D /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = FE07B0CA1C6F68BB0011735D /* house.png */; };
-		FE09E6ED1C6EE142003D27E6 /* leftarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FE09E6EC1C6EE142003D27E6 /* leftarrow.png */; };
+		FE07B0CD1C6F8EC10011735D /* cubeimposii.png in Resources */ = {isa = PBXBuildFile; fileRef = FE07B0CC1C6F8EC10011735D /* cubeimposii.png */; };
+		FE07B0D51C6FBC640011735D /* ColorSwiper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE07B0D41C6FBC640011735D /* ColorSwiper.mp3 */; };
+		FE07B0D71C6FBCAB0011735D /* howto.png in Resources */ = {isa = PBXBuildFile; fileRef = FE07B0D61C6FBCAB0011735D /* howto.png */; };
+		FE07B0D91C6FBD4B0011735D /* likeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = FE07B0D81C6FBD4B0011735D /* likeicon.png */; };
+		FE07B0DB1C6FC00D0011735D /* pauseicon.png in Resources */ = {isa = PBXBuildFile; fileRef = FE07B0DA1C6FC00D0011735D /* pauseicon.png */; };
 		FE09E6EF1C6EE1EC003D27E6 /* leftright.png in Resources */ = {isa = PBXBuildFile; fileRef = FE09E6EE1C6EE1EC003D27E6 /* leftright.png */; };
 		FE22BB091C5661F200BEA6AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE22BB081C5661F200BEA6AA /* AppDelegate.swift */; };
 		FE22BB0B1C5661F200BEA6AA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE22BB0A1C5661F200BEA6AA /* GameScene.sks */; };
@@ -26,10 +26,19 @@
 		FE3E71011C6A96FC00109057 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E71001C6A96FC00109057 /* MainMenuScene.swift */; };
 		FE3E71031C6A99EB00109057 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE3E71021C6A99EB00109057 /* MainMenuScene.sks */; };
 		FE3E71051C6A9B2700109057 /* TapTap Playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3E71041C6A9B2700109057 /* TapTap Playbutton.png */; };
-		FE3E71071C6A9F1100109057 /* Untitled drawing (2).png in Resources */ = {isa = PBXBuildFile; fileRef = FE3E71061C6A9F1100109057 /* Untitled drawing (2).png */; };
 		FE3E710F1C6AE58D00109057 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3E710E1C6AE58D00109057 /* unnamed.png */; };
-		FE8E62841C601B980083B70F /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = FE8E62831C601B980083B70F /* images.png */; };
-		FED419E61C5D299100B43FCA /* rightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FED419E41C5D299100B43FCA /* rightarrow.png */; };
+		FE4D23FB1C71222A00AD20DA /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4D23FA1C71222A00AD20DA /* Themes.swift */; };
+		FE4D23FD1C71225300AD20DA /* Themes.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE4D23FC1C71225300AD20DA /* Themes.sks */; };
+		FE4D24011C751F4900AD20DA /* soundicon.png in Resources */ = {isa = PBXBuildFile; fileRef = FE4D24001C751F4900AD20DA /* soundicon.png */; };
+		FE4D240D1C78FD5800AD20DA /* ButtonAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE4D240C1C78FD5800AD20DA /* ButtonAudio.mp3 */; };
+		FE4D24111C7922C300AD20DA /* beep1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE4D24101C7922C300AD20DA /* beep1.mp3 */; };
+		FE4D24131C792DFA00AD20DA /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = FE4D24121C792DFA00AD20DA /* back.png */; };
+		FE4D24171C7A2AB400AD20DA /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4D24161C7A2AB400AD20DA /* iAd.framework */; };
+		FE4D24191C7A439B00AD20DA /* Leaderboard.png in Resources */ = {isa = PBXBuildFile; fileRef = FE4D24181C7A439B00AD20DA /* Leaderboard.png */; };
+		FE4D241B1C7A464900AD20DA /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = FE4D241A1C7A464900AD20DA /* house.png */; };
+		FE4D241E1C7A71DC00AD20DA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4D241C1C7A572000AD20DA /* StoreKit.framework */; };
+		FE4D24221C7A71DC00AD20DA /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4D240A1C75382B00AD20DA /* GameKit.framework */; };
+		FE4D24241C7A71DC00AD20DA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE07B0CE1C6F93F50011735D /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,13 +59,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FE07B0C11C6EECFA0011735D /* Leaderboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leaderboard.png; sourceTree = "<group>"; };
 		FE07B0C31C6EEDC60011735D /* Rate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rate.png; sourceTree = "<group>"; };
-		FE07B0C51C6EF0E70011735D /* questionmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = questionmark.png; sourceTree = "<group>"; };
-		FE07B0C71C6EF5520011735D /* Dream TOM GARNETT.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dream TOM GARNETT.m4a"; sourceTree = "<group>"; };
-		FE07B0C81C6EF9CF0011735D /* Dream TOM GARNETT.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Dream TOM GARNETT.m4a"; path = "TapTap/Images/Dream TOM GARNETT.m4a"; sourceTree = "<group>"; };
-		FE07B0CA1C6F68BB0011735D /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
-		FE09E6EC1C6EE142003D27E6 /* leftarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftarrow.png; sourceTree = "<group>"; };
+		FE07B0CC1C6F8EC10011735D /* cubeimposii.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubeimposii.png; sourceTree = "<group>"; };
+		FE07B0CE1C6F93F50011735D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FE07B0D41C6FBC640011735D /* ColorSwiper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ColorSwiper.mp3; path = ../../ColorSwiper.mp3; sourceTree = "<group>"; };
+		FE07B0D61C6FBCAB0011735D /* howto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = howto.png; sourceTree = "<group>"; };
+		FE07B0D81C6FBD4B0011735D /* likeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likeicon.png; sourceTree = "<group>"; };
+		FE07B0DA1C6FC00D0011735D /* pauseicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseicon.png; sourceTree = "<group>"; };
+		FE07B0DE1C6FC4330011735D /* pauseicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseicon.png; sourceTree = "<group>"; };
 		FE09E6EE1C6EE1EC003D27E6 /* leftright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftright.png; sourceTree = "<group>"; };
 		FE22BB051C5661F200BEA6AA /* TapTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE22BB081C5661F200BEA6AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,10 +86,18 @@
 		FE3E71001C6A96FC00109057 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 		FE3E71021C6A99EB00109057 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
 		FE3E71041C6A9B2700109057 /* TapTap Playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TapTap Playbutton.png"; sourceTree = "<group>"; };
-		FE3E71061C6A9F1100109057 /* Untitled drawing (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled drawing (2).png"; sourceTree = "<group>"; };
 		FE3E710E1C6AE58D00109057 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
-		FE8E62831C601B980083B70F /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
-		FED419E41C5D299100B43FCA /* rightarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightarrow.png; sourceTree = "<group>"; };
+		FE4D23FA1C71222A00AD20DA /* Themes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		FE4D23FC1C71225300AD20DA /* Themes.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Themes.sks; sourceTree = "<group>"; };
+		FE4D24001C751F4900AD20DA /* soundicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundicon.png; sourceTree = "<group>"; };
+		FE4D240A1C75382B00AD20DA /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		FE4D240C1C78FD5800AD20DA /* ButtonAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ButtonAudio.mp3; sourceTree = "<group>"; };
+		FE4D24101C7922C300AD20DA /* beep1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep1.mp3; sourceTree = "<group>"; };
+		FE4D24121C792DFA00AD20DA /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		FE4D24161C7A2AB400AD20DA /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		FE4D24181C7A439B00AD20DA /* Leaderboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leaderboard.png; sourceTree = "<group>"; };
+		FE4D241A1C7A464900AD20DA /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		FE4D241C1C7A572000AD20DA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +105,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE4D24241C7A71DC00AD20DA /* AVFoundation.framework in Frameworks */,
+				FE4D24171C7A2AB400AD20DA /* iAd.framework in Frameworks */,
+				FE4D24221C7A71DC00AD20DA /* GameKit.framework in Frameworks */,
+				FE4D241E1C7A71DC00AD20DA /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,13 +132,17 @@
 		FE22BAFC1C5661F200BEA6AA = {
 			isa = PBXGroup;
 			children = (
-				FE07B0C81C6EF9CF0011735D /* Dream TOM GARNETT.m4a */,
+				FE4D241C1C7A572000AD20DA /* StoreKit.framework */,
+				FE4D24161C7A2AB400AD20DA /* iAd.framework */,
+				FE4D240A1C75382B00AD20DA /* GameKit.framework */,
+				FE07B0CE1C6F93F50011735D /* AVFoundation.framework */,
 				FE22BB071C5661F200BEA6AA /* TapTap */,
 				FE22BB201C5661F200BEA6AA /* TapTapTests */,
 				FE22BB2B1C5661F200BEA6AA /* TapTapUITests */,
 				FE22BB061C5661F200BEA6AA /* Products */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 0;
 		};
 		FE22BB061C5661F200BEA6AA /* Products */ = {
 			isa = PBXGroup;
@@ -135,6 +161,8 @@
 				FE22BB0A1C5661F200BEA6AA /* GameScene.sks */,
 				FE22BB0C1C5661F200BEA6AA /* GameScene.swift */,
 				FE3E71001C6A96FC00109057 /* MainMenuScene.swift */,
+				FE4D23FA1C71222A00AD20DA /* Themes.swift */,
+				FE4D23FC1C71225300AD20DA /* Themes.sks */,
 				FE22BB0E1C5661F200BEA6AA /* GameViewController.swift */,
 				FE3E71021C6A99EB00109057 /* MainMenuScene.sks */,
 				FE22BB101C5661F200BEA6AA /* Main.storyboard */,
@@ -168,17 +196,21 @@
 			isa = PBXGroup;
 			children = (
 				FE3E710E1C6AE58D00109057 /* unnamed.png */,
-				FE07B0C51C6EF0E70011735D /* questionmark.png */,
-				FE07B0CA1C6F68BB0011735D /* house.png */,
+				FE4D240C1C78FD5800AD20DA /* ButtonAudio.mp3 */,
+				FE4D24101C7922C300AD20DA /* beep1.mp3 */,
+				FE07B0D61C6FBCAB0011735D /* howto.png */,
+				FE4D241A1C7A464900AD20DA /* house.png */,
+				FE4D24121C792DFA00AD20DA /* back.png */,
+				FE07B0DE1C6FC4330011735D /* pauseicon.png */,
 				FE07B0C31C6EEDC60011735D /* Rate.png */,
+				FE4D24181C7A439B00AD20DA /* Leaderboard.png */,
+				FE4D24001C751F4900AD20DA /* soundicon.png */,
+				FE07B0D81C6FBD4B0011735D /* likeicon.png */,
+				FE07B0DA1C6FC00D0011735D /* pauseicon.png */,
+				FE07B0D41C6FBC640011735D /* ColorSwiper.mp3 */,
 				FE09E6EE1C6EE1EC003D27E6 /* leftright.png */,
 				FE3E71041C6A9B2700109057 /* TapTap Playbutton.png */,
-				FE07B0C11C6EECFA0011735D /* Leaderboard.png */,
-				FE07B0C71C6EF5520011735D /* Dream TOM GARNETT.m4a */,
-				FE09E6EC1C6EE142003D27E6 /* leftarrow.png */,
-				FE8E62831C601B980083B70F /* images.png */,
-				FE3E71061C6A9F1100109057 /* Untitled drawing (2).png */,
-				FED419E41C5D299100B43FCA /* rightarrow.png */,
+				FE07B0CC1C6F8EC10011735D /* cubeimposii.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -251,13 +283,24 @@
 				TargetAttributes = {
 					FE22BB041C5661F200BEA6AA = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0810;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 					FE22BB1C1C5661F200BEA6AA = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0810;
 						TestTargetID = FE22BB041C5661F200BEA6AA;
 					};
 					FE22BB271C5661F200BEA6AA = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0810;
 						TestTargetID = FE22BB041C5661F200BEA6AA;
 					};
 				};
@@ -288,21 +331,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE22BB0B1C5661F200BEA6AA /* GameScene.sks in Resources */,
+				FE4D24191C7A439B00AD20DA /* Leaderboard.png in Resources */,
+				FE4D241B1C7A464900AD20DA /* house.png in Resources */,
+				FE4D24111C7922C300AD20DA /* beep1.mp3 in Resources */,
 				FE3E710F1C6AE58D00109057 /* unnamed.png in Resources */,
+				FE4D240D1C78FD5800AD20DA /* ButtonAudio.mp3 in Resources */,
+				FE4D23FD1C71225300AD20DA /* Themes.sks in Resources */,
+				FE07B0D91C6FBD4B0011735D /* likeicon.png in Resources */,
+				FE4D24011C751F4900AD20DA /* soundicon.png in Resources */,
+				FE07B0D51C6FBC640011735D /* ColorSwiper.mp3 in Resources */,
 				FE3E71051C6A9B2700109057 /* TapTap Playbutton.png in Resources */,
-				FE07B0C91C6EF9CF0011735D /* Dream TOM GARNETT.m4a in Resources */,
 				FE3E71031C6A99EB00109057 /* MainMenuScene.sks in Resources */,
-				FE07B0CB1C6F68BB0011735D /* house.png in Resources */,
+				FE07B0DB1C6FC00D0011735D /* pauseicon.png in Resources */,
 				FE07B0C41C6EEDC60011735D /* Rate.png in Resources */,
-				FE07B0C21C6EECFA0011735D /* Leaderboard.png in Resources */,
+				FE07B0D71C6FBCAB0011735D /* howto.png in Resources */,
+				FE4D24131C792DFA00AD20DA /* back.png in Resources */,
 				FE22BB171C5661F200BEA6AA /* LaunchScreen.storyboard in Resources */,
 				FE22BB141C5661F200BEA6AA /* Assets.xcassets in Resources */,
-				FE07B0C61C6EF0E70011735D /* questionmark.png in Resources */,
-				FE09E6ED1C6EE142003D27E6 /* leftarrow.png in Resources */,
 				FE09E6EF1C6EE1EC003D27E6 /* leftright.png in Resources */,
-				FE8E62841C601B980083B70F /* images.png in Resources */,
-				FE3E71071C6A9F1100109057 /* Untitled drawing (2).png in Resources */,
-				FED419E61C5D299100B43FCA /* rightarrow.png in Resources */,
+				FE07B0CD1C6F8EC10011735D /* cubeimposii.png in Resources */,
 				FE22BB121C5661F200BEA6AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +378,7 @@
 				FE22BB0D1C5661F200BEA6AA /* GameScene.swift in Sources */,
 				FE22BB0F1C5661F200BEA6AA /* GameViewController.swift in Sources */,
 				FE3E71011C6A96FC00109057 /* MainMenuScene.swift in Sources */,
+				FE4D23FB1C71222A00AD20DA /* Themes.swift in Sources */,
 				FE22BB091C5661F200BEA6AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,11 +519,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ramana Gandikota (Y4V9E48372)";
 				INFOPLIST_FILE = TapTap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Vibell.TapTap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -483,11 +536,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ramana Gandikota (Y4V9E48372)";
 				INFOPLIST_FILE = TapTap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Vibell.TapTap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -500,6 +558,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Vibell.TapTapTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapTap.app/TapTap";
 			};
 			name = Debug;
@@ -512,6 +571,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Vibell.TapTapTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapTap.app/TapTap";
 			};
 			name = Release;
@@ -524,6 +584,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Vibell.TapTapUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = TapTap;
 				USES_XCTRUNNER = YES;
 			};
@@ -536,6 +597,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Vibell.TapTapUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = TapTap;
 				USES_XCTRUNNER = YES;
 			};
